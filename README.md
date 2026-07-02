@@ -45,9 +45,9 @@ The programme this work supports asks for tools that let government **(1) assess
 
 NSRO is deliberately thin. It does not re-model nature; it references what already exists and adds only the security layer:
 
-- **IPBES conceptual framework** — drivers and nature's contributions to people are reused as the upstream of every cascade.
-- **UK Nature Security Assessment (2026)** — the six strategic ecosystems, the cascade/feedback structure, and the **High / Moderate / Low analytical confidence ratings** are adopted directly, so the evidence base speaks the assessment's own language.
-- **Kunming-Montreal GBF monitoring indicators, SEEA-EA condition accounts, TNFD LEAP risk grammar** — referenced as the indicator and disclosure layer.
+- **IPBES conceptual framework**: drivers and nature's contributions to people are reused as the upstream of every cascade.
+- **UK Nature Security Assessment (2026)**: the six strategic ecosystems, the cascade/feedback structure, and the **High / Moderate / Low analytical confidence ratings** are adopted directly, so the evidence base speaks the assessment's own language.
+- **Kunming-Montreal GBF monitoring indicators, SEEA-EA condition accounts, TNFD LEAP risk grammar**: referenced as the indicator and disclosure layer.
 
 ## The critique this is built against
 

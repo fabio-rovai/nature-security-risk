@@ -2,7 +2,7 @@
 
 The programme asks for tools that let government **assess**, **monitor** and **mitigate** nature-related security risk. This note specifies a reproducible method for each, built only on open indicators. No indicator is re-created; each is bound, by transmission channel, to the security layer.
 
-## 1. Assess — a nature-security exposure profile
+## 1. Assess, a nature-security exposure profile
 
 For a country or region, exposure is profiled per transmission channel by binding existing open indicators to that channel:
 
@@ -19,7 +19,7 @@ The profile is a **vector, not a single score**: it is deliberately not collapse
 
 Reproducibility note: this repository specifies the method and the indicator sources rather than shipping a frozen scored table, because the underlying indicators update on their own cycles and are re-pointable. Every source is public and named above.
 
-## 2. Monitor — early warning
+## 2. Monitor, early warning
 
 Two families of leading indicator:
 
@@ -28,6 +28,6 @@ Two families of leading indicator:
 
 An emerging risk is flagged when a driver-side early-warning signal and a channel-side leading indicator move together for a cascade that the evidence base already documents, tying detection back to a known structure rather than a bare anomaly.
 
-## 3. Mitigate — intervention-point mapping
+## 3. Mitigate, intervention-point mapping
 
 Every cascade in [`../data/cascades.csv`](../data/cascades.csv) carries an `intervention_point`: the place in the chain where it is cheapest to break, expressed as a civilian, preventive lever (grain reserves and trade-policy coordination for food; One Health surveillance and wildlife-trade regulation for zoonotic spillover; transboundary water treaties and benefit-sharing for interstate water tension; ecosystem restoration and resilience monitoring for tipping-point cascades). Each maps to a policy home: a National Risk Register entry, an IPBES response option, or a Kunming-Montreal Global Biodiversity Framework target. The framing is deliberately non-militarised, per the design principles in the README.
