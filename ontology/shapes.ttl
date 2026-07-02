@@ -1,0 +1,49 @@
+@prefix sh:   <http://www.w3.org/ns/shacl#> .
+@prefix nsro: <https://w3id.org/nsro#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+## SHACL shapes for a valid cascade record.
+## A cascade is only admissible if the full chain is present, it is graded for
+## analytical confidence, it names a source, and any contested chain is flagged.
+
+nsro:CascadeShape a sh:NodeShape ;
+    sh:targetClass nsro:Cascade ;
+
+    sh:property [
+        sh:path nsro:hasDriver ;
+        sh:minCount 1 ;
+        sh:message "Every cascade must name at least one nature-loss driver." ;
+    ] ;
+    sh:property [
+        sh:path nsro:propagatesThrough ;
+        sh:minCount 1 ;
+        sh:message "Every cascade must route through at least one transmission channel." ;
+    ] ;
+    sh:property [
+        sh:path nsro:resultsIn ;
+        sh:minCount 1 ;
+        sh:message "Every cascade must terminate in at least one security outcome." ;
+    ] ;
+    sh:property [
+        sh:path nsro:confidence ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:pattern "^(High|Moderate|Low)(-(High|Moderate|Low))?$" ;
+        sh:message "Confidence must follow the UK NSA ratings: High, Moderate or Low (ranges permitted, e.g. Low-Moderate)." ;
+    ] ;
+    sh:property [
+        sh:path nsro:contested ;
+        sh:minCount 1 ;
+        sh:in ( "Yes" "No" ) ;
+        sh:message "Every cascade must state whether its causal chain is contested." ;
+    ] ;
+    sh:property [
+        sh:path nsro:source ;
+        sh:minCount 1 ;
+        sh:message "Every cascade must cite at least one authoritative source; contested cascades must cite both sides." ;
+    ] ;
+    sh:property [
+        sh:path nsro:mitigatedAt ;
+        sh:minCount 1 ;
+        sh:message "Every cascade must name at least one intervention point." ;
+    ] .

@@ -1,0 +1,113 @@
+@prefix nsro: <https://w3id.org/nsro#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://w3id.org/nsro> a owl:Ontology ;
+    dct:title "Nature-Related Security Risk Ontology (NSRO)"@en ;
+    dct:description "A thin systems ontology for documented nature-to-security cascades. It reuses the IPBES conceptual framework upstream and adds the security layer: ecosystem-service loss, transmission channel, human-security and geopolitical outcome, with typed causal edges. Designed to operationalise the UK National Security Assessment on biodiversity loss and ecosystem collapse (2026)."@en ;
+    dct:license <https://opensource.org/licenses/MIT> ;
+    owl:versionInfo "0.1.0" .
+
+## ----- Core classes -----
+
+nsro:Cascade a owl:Class ;
+    rdfs:label "Nature-to-security cascade"@en ;
+    rdfs:comment "An evidence-graded causal chain from a nature-loss driver, through ecosystem-service loss and one or more transmission channels, to a security outcome."@en .
+
+nsro:Driver a owl:Class ;
+    rdfs:label "Driver"@en ;
+    rdfs:comment "A direct or indirect driver of nature loss (aligned to IPBES drivers of change)."@en .
+
+nsro:EcosystemServiceLoss a owl:Class ;
+    rdfs:label "Ecosystem-service loss"@en ;
+    rdfs:comment "Degradation or loss of a provisioning, regulating or cultural service (a decline in a nature's-contribution-to-people)."@en .
+
+nsro:TransmissionChannel a owl:Class ;
+    rdfs:label "Transmission channel"@en ;
+    rdfs:comment "The human-system pathway through which ecosystem-service loss propagates to a security outcome (e.g. food, water, health, mobility, livelihoods, maritime, supply chains)."@en .
+
+nsro:SecurityOutcome a owl:Class ;
+    rdfs:label "Security outcome"@en ;
+    rdfs:comment "A human-security or geopolitical consequence (unrest, conflict, displacement, pandemic, economic or supply shock, interstate tension, state fragility)."@en .
+
+nsro:StrategicEcosystem a owl:Class ;
+    rdfs:label "Strategic ecosystem"@en ;
+    rdfs:comment "An ecosystem whose collapse carries national-security consequences, e.g. the six named in the UK Nature Security Assessment (2026)."@en .
+
+nsro:Indicator a owl:Class ;
+    rdfs:label "Indicator"@en ;
+    rdfs:comment "An open measurement used to assess exposure or to give early warning (e.g. Biodiversity Intactness Index, WRI Aqueduct water stress, ND-GAIN)."@en .
+
+nsro:InterventionPoint a owl:Class ;
+    rdfs:label "Intervention point"@en ;
+    rdfs:comment "A place in the cascade where the chain can be broken, cross-referenced to a policy lever."@en .
+
+## ----- Systems constructs named by the UK NSA -----
+
+nsro:TippingPoint a owl:Class ;
+    rdfs:subClassOf nsro:Driver ;
+    rdfs:label "Tipping point"@en ;
+    rdfs:comment "A threshold beyond which ecosystem change becomes self-sustaining or abrupt."@en .
+
+nsro:FeedbackLoop a owl:Class ;
+    rdfs:label "Feedback loop"@en ;
+    rdfs:comment "A reinforcing relationship in which a security outcome degrades adaptive capacity and so amplifies the driver."@en .
+
+nsro:CompoundShock a owl:Class ;
+    rdfs:subClassOf nsro:Cascade ;
+    rdfs:label "Compound shock"@en ;
+    rdfs:comment "A cascade in which two or more concurrent drivers or channels interact and amplify one another."@en .
+
+## ----- Typed causal properties -----
+
+nsro:hasDriver a owl:ObjectProperty ;
+    rdfs:domain nsro:Cascade ; rdfs:range nsro:Driver ;
+    rdfs:label "has driver"@en .
+
+nsro:causesServiceLoss a owl:ObjectProperty ;
+    rdfs:domain nsro:Driver ; rdfs:range nsro:EcosystemServiceLoss ;
+    rdfs:label "causes service loss"@en .
+
+nsro:propagatesThrough a owl:ObjectProperty ;
+    rdfs:domain nsro:EcosystemServiceLoss ; rdfs:range nsro:TransmissionChannel ;
+    rdfs:label "propagates through"@en .
+
+nsro:resultsIn a owl:ObjectProperty ;
+    rdfs:domain nsro:TransmissionChannel ; rdfs:range nsro:SecurityOutcome ;
+    rdfs:label "results in"@en .
+
+nsro:reinforces a owl:ObjectProperty ;
+    rdfs:domain nsro:FeedbackLoop ; rdfs:range nsro:Driver ;
+    rdfs:label "reinforces"@en ;
+    rdfs:comment "A feedback loop by which an outcome amplifies an upstream driver."@en .
+
+nsro:monitoredBy a owl:ObjectProperty ;
+    rdfs:range nsro:Indicator ;
+    rdfs:label "monitored by"@en .
+
+nsro:mitigatedAt a owl:ObjectProperty ;
+    rdfs:domain nsro:Cascade ; rdfs:range nsro:InterventionPoint ;
+    rdfs:label "mitigated at"@en .
+
+nsro:affectsEcosystem a owl:ObjectProperty ;
+    rdfs:domain nsro:Cascade ; rdfs:range nsro:StrategicEcosystem ;
+    rdfs:label "affects strategic ecosystem"@en .
+
+## ----- Datatype properties -----
+
+nsro:confidence a owl:DatatypeProperty ;
+    rdfs:domain nsro:Cascade ; rdfs:range rdfs:Literal ;
+    rdfs:label "analytical confidence"@en ;
+    rdfs:comment "High | Moderate | Low, following the UK Nature Security Assessment (2026) analytical confidence ratings. Ranges such as 'Low-Moderate' are permitted."@en .
+
+nsro:contested a owl:DatatypeProperty ;
+    rdfs:domain nsro:Cascade ; rdfs:range rdfs:Literal ;
+    rdfs:label "contested"@en ;
+    rdfs:comment "Whether the causal chain is disputed in the literature (Yes/No); if Yes, both sides must be cited."@en .
+
+nsro:period a owl:DatatypeProperty ; rdfs:domain nsro:Cascade ; rdfs:label "period"@en .
+nsro:region a owl:DatatypeProperty ; rdfs:domain nsro:Cascade ; rdfs:label "region"@en .
+nsro:source a owl:DatatypeProperty ; rdfs:domain nsro:Cascade ; rdfs:label "source"@en .

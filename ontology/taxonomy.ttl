@@ -1,0 +1,57 @@
+@prefix nsr:  <https://w3id.org/nsro/scheme#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+
+## SKOS concept schemes for the NSR evidence base.
+## Upstream drivers and ecosystem services are cross-walked to the IPBES conceptual framework;
+## the transmission-channel and security-outcome schemes are the security layer this project adds.
+
+## ===== Transmission channels (the security layer) =====
+nsr:Channels a skos:ConceptScheme ;
+    dct:title "Nature-to-security transmission channels"@en .
+
+nsr:food a skos:Concept ; skos:inScheme nsr:Channels ; skos:prefLabel "Food security"@en .
+nsr:water a skos:Concept ; skos:inScheme nsr:Channels ; skos:prefLabel "Water security"@en .
+nsr:health a skos:Concept ; skos:inScheme nsr:Channels ; skos:prefLabel "Human health and biosecurity"@en .
+nsr:mobility a skos:Concept ; skos:inScheme nsr:Channels ; skos:prefLabel "Human mobility and displacement"@en .
+nsr:livelihoods a skos:Concept ; skos:inScheme nsr:Channels ; skos:prefLabel "Livelihoods and economic shock"@en .
+nsr:conflict a skos:Concept ; skos:inScheme nsr:Channels ; skos:prefLabel "Violent and communal conflict"@en .
+nsr:maritime a skos:Concept ; skos:inScheme nsr:Channels ; skos:prefLabel "Maritime security"@en .
+nsr:supplychains a skos:Concept ; skos:inScheme nsr:Channels ; skos:prefLabel "Strategic supply chains and critical materials"@en .
+nsr:fragility a skos:Concept ; skos:inScheme nsr:Channels ; skos:prefLabel "State fragility and governance"@en .
+nsr:interstate a skos:Concept ; skos:inScheme nsr:Channels ; skos:prefLabel "Interstate and transboundary tension"@en .
+
+## ===== Security outcomes =====
+nsr:Outcomes a skos:ConceptScheme ;
+    dct:title "Security outcomes"@en .
+
+nsr:unrest a skos:Concept ; skos:inScheme nsr:Outcomes ; skos:prefLabel "Protest and unrest"@en .
+nsr:civilConflict a skos:Concept ; skos:inScheme nsr:Outcomes ; skos:prefLabel "Civil conflict"@en .
+nsr:interstateTension a skos:Concept ; skos:inScheme nsr:Outcomes ; skos:prefLabel "Interstate tension"@en .
+nsr:displacement a skos:Concept ; skos:inScheme nsr:Outcomes ; skos:prefLabel "Mass displacement"@en .
+nsr:humanitarian a skos:Concept ; skos:inScheme nsr:Outcomes ; skos:prefLabel "Humanitarian emergency"@en .
+nsr:pandemic a skos:Concept ; skos:inScheme nsr:Outcomes ; skos:prefLabel "Pandemic"@en .
+nsr:economicShock a skos:Concept ; skos:inScheme nsr:Outcomes ; skos:prefLabel "Economic shock"@en .
+nsr:supplyDisruption a skos:Concept ; skos:inScheme nsr:Outcomes ; skos:prefLabel "Critical-supply disruption"@en .
+nsr:stateFragility a skos:Concept ; skos:inScheme nsr:Outcomes ; skos:prefLabel "State fragility"@en .
+
+## ===== Drivers (cross-walked to IPBES direct/indirect drivers) =====
+nsr:Drivers a skos:ConceptScheme ;
+    dct:title "Drivers of nature loss"@en ;
+    skos:note "Aligned to the IPBES conceptual framework drivers of change."@en .
+
+nsr:landUseChange a skos:Concept ; skos:inScheme nsr:Drivers ; skos:prefLabel "Land- and sea-use change"@en .
+nsr:overexploitation a skos:Concept ; skos:inScheme nsr:Drivers ; skos:prefLabel "Direct exploitation (fisheries, wildlife trade)"@en .
+nsr:climateNature a skos:Concept ; skos:inScheme nsr:Drivers ; skos:prefLabel "Climate-nature interaction"@en .
+nsr:pollution a skos:Concept ; skos:inScheme nsr:Drivers ; skos:prefLabel "Pollution"@en .
+nsr:invasive a skos:Concept ; skos:inScheme nsr:Drivers ; skos:prefLabel "Invasive alien species"@en .
+nsr:freshwaterDepletion a skos:Concept ; skos:inScheme nsr:Drivers ; skos:prefLabel "Freshwater depletion"@en .
+nsr:tippingPoint a skos:Concept ; skos:inScheme nsr:Drivers ; skos:prefLabel "Ecosystem tipping point"@en .
+
+## ===== Ecosystem services (cross-walked to IPBES NCP) =====
+nsr:Services a skos:ConceptScheme ;
+    dct:title "Ecosystem services / nature's contributions to people"@en .
+
+nsr:provisioning a skos:Concept ; skos:inScheme nsr:Services ; skos:prefLabel "Provisioning (food, water, materials)"@en .
+nsr:regulating a skos:Concept ; skos:inScheme nsr:Services ; skos:prefLabel "Regulating (climate, disease, pollination, coastal protection)"@en .
+nsr:cultural a skos:Concept ; skos:inScheme nsr:Services ; skos:prefLabel "Cultural"@en .
