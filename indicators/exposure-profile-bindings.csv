@@ -1,0 +1,101 @@
+cascade_id,cascade_name,region,transmission_channel,bound_open_indicator,custodian,resolution_key
+NSR-01,2007-2008 global food price crisis and food riots,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)",food security,FAO cereal-import dependency ratio,FAO,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)"
+NSR-01,2007-2008 global food price crisis and food riots,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)",food security,Pollination-dependent crop share (IPBES 2016),IPBES,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)"
+NSR-01,2007-2008 global food price crisis and food riots,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)",livelihoods,Share of employment in nature-dependent sectors,ILO,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)"
+NSR-01,2007-2008 global food price crisis and food riots,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)",livelihoods,Swiss Re BES fragility,Swiss Re,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)"
+NSR-01,2007-2008 global food price crisis and food riots,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)",state fragility,Channel-side leading indicator (see methods.md sec 2),,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)"
+NSR-01,2007-2008 global food price crisis and food riots,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)",State of nature (upstream),Biodiversity Intactness Index,NHM,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)"
+NSR-01,2007-2008 global food price crisis and food riots,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)",State of nature (upstream),IUCN Red List of Ecosystems status,IUCN,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)"
+NSR-01,2007-2008 global food price crisis and food riots,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)",Overall vulnerability,ND-GAIN country vulnerability and readiness,Notre Dame,"30+ countries (Haiti, Egypt, Cameroon, Bangladesh)"
+NSR-02,2010-2011 food price spike and MENA unrest,Middle East and North Africa,food security,FAO cereal-import dependency ratio,FAO,Middle East and North Africa
+NSR-02,2010-2011 food price spike and MENA unrest,Middle East and North Africa,food security,Pollination-dependent crop share (IPBES 2016),IPBES,Middle East and North Africa
+NSR-02,2010-2011 food price spike and MENA unrest,Middle East and North Africa,livelihoods,Share of employment in nature-dependent sectors,ILO,Middle East and North Africa
+NSR-02,2010-2011 food price spike and MENA unrest,Middle East and North Africa,livelihoods,Swiss Re BES fragility,Swiss Re,Middle East and North Africa
+NSR-02,2010-2011 food price spike and MENA unrest,Middle East and North Africa,violent unrest,Channel-side leading indicator (see methods.md sec 2),,Middle East and North Africa
+NSR-02,2010-2011 food price spike and MENA unrest,Middle East and North Africa,State of nature (upstream),Biodiversity Intactness Index,NHM,Middle East and North Africa
+NSR-02,2010-2011 food price spike and MENA unrest,Middle East and North Africa,State of nature (upstream),IUCN Red List of Ecosystems status,IUCN,Middle East and North Africa
+NSR-02,2010-2011 food price spike and MENA unrest,Middle East and North Africa,Overall vulnerability,ND-GAIN country vulnerability and readiness,Notre Dame,Middle East and North Africa
+NSR-03,2006-2011 Syria drought displacement and civil war,Syria (Fertile Crescent),food security,FAO cereal-import dependency ratio,FAO,Syria (Fertile Crescent)
+NSR-03,2006-2011 Syria drought displacement and civil war,Syria (Fertile Crescent),food security,Pollination-dependent crop share (IPBES 2016),IPBES,Syria (Fertile Crescent)
+NSR-03,2006-2011 Syria drought displacement and civil war,Syria (Fertile Crescent),water security,WRI Aqueduct baseline water stress,WRI,Syria (Fertile Crescent)
+NSR-03,2006-2011 Syria drought displacement and civil war,Syria (Fertile Crescent),water security,Transboundary basin dependency,WRI,Syria (Fertile Crescent)
+NSR-03,2006-2011 Syria drought displacement and civil war,Syria (Fertile Crescent),human mobility,Channel-side leading indicator (see methods.md sec 2),,Syria (Fertile Crescent)
+NSR-03,2006-2011 Syria drought displacement and civil war,Syria (Fertile Crescent),State of nature (upstream),Biodiversity Intactness Index,NHM,Syria (Fertile Crescent)
+NSR-03,2006-2011 Syria drought displacement and civil war,Syria (Fertile Crescent),State of nature (upstream),IUCN Red List of Ecosystems status,IUCN,Syria (Fertile Crescent)
+NSR-03,2006-2011 Syria drought displacement and civil war,Syria (Fertile Crescent),Overall vulnerability,ND-GAIN country vulnerability and readiness,Notre Dame,Syria (Fertile Crescent)
+NSR-04,Lake Chad Basin degradation and Boko Haram fragility,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)",livelihoods,Share of employment in nature-dependent sectors,ILO,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)"
+NSR-04,Lake Chad Basin degradation and Boko Haram fragility,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)",livelihoods,Swiss Re BES fragility,Swiss Re,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)"
+NSR-04,Lake Chad Basin degradation and Boko Haram fragility,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)",food security,FAO cereal-import dependency ratio,FAO,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)"
+NSR-04,Lake Chad Basin degradation and Boko Haram fragility,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)",food security,Pollination-dependent crop share (IPBES 2016),IPBES,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)"
+NSR-04,Lake Chad Basin degradation and Boko Haram fragility,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)",state fragility,Channel-side leading indicator (see methods.md sec 2),,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)"
+NSR-04,Lake Chad Basin degradation and Boko Haram fragility,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)",violent conflict,Channel-side leading indicator (see methods.md sec 2),,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)"
+NSR-04,Lake Chad Basin degradation and Boko Haram fragility,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)",State of nature (upstream),Biodiversity Intactness Index,NHM,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)"
+NSR-04,Lake Chad Basin degradation and Boko Haram fragility,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)",State of nature (upstream),IUCN Red List of Ecosystems status,IUCN,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)"
+NSR-04,Lake Chad Basin degradation and Boko Haram fragility,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)",Overall vulnerability,ND-GAIN country vulnerability and readiness,Notre Dame,"Lake Chad Basin (Nigeria, Niger, Chad, Cameroon)"
+NSR-05,2011-2012 Somalia famine and Al-Shabaab exploitation,Somalia (Horn of Africa),food security,FAO cereal-import dependency ratio,FAO,Somalia (Horn of Africa)
+NSR-05,2011-2012 Somalia famine and Al-Shabaab exploitation,Somalia (Horn of Africa),food security,Pollination-dependent crop share (IPBES 2016),IPBES,Somalia (Horn of Africa)
+NSR-05,2011-2012 Somalia famine and Al-Shabaab exploitation,Somalia (Horn of Africa),humanitarian emergency,Channel-side leading indicator (see methods.md sec 2),,Somalia (Horn of Africa)
+NSR-05,2011-2012 Somalia famine and Al-Shabaab exploitation,Somalia (Horn of Africa),conflict,Channel-side leading indicator (see methods.md sec 2),,Somalia (Horn of Africa)
+NSR-05,2011-2012 Somalia famine and Al-Shabaab exploitation,Somalia (Horn of Africa),State of nature (upstream),Biodiversity Intactness Index,NHM,Somalia (Horn of Africa)
+NSR-05,2011-2012 Somalia famine and Al-Shabaab exploitation,Somalia (Horn of Africa),State of nature (upstream),IUCN Red List of Ecosystems status,IUCN,Somalia (Horn of Africa)
+NSR-05,2011-2012 Somalia famine and Al-Shabaab exploitation,Somalia (Horn of Africa),Overall vulnerability,ND-GAIN country vulnerability and readiness,Notre Dame,Somalia (Horn of Africa)
+NSR-06,2019-2022 East Africa desert locust upsurge,"Ethiopia, Kenya, Somalia, Horn of Africa",food security,FAO cereal-import dependency ratio,FAO,"Ethiopia, Kenya, Somalia, Horn of Africa"
+NSR-06,2019-2022 East Africa desert locust upsurge,"Ethiopia, Kenya, Somalia, Horn of Africa",food security,Pollination-dependent crop share (IPBES 2016),IPBES,"Ethiopia, Kenya, Somalia, Horn of Africa"
+NSR-06,2019-2022 East Africa desert locust upsurge,"Ethiopia, Kenya, Somalia, Horn of Africa",livelihoods,Share of employment in nature-dependent sectors,ILO,"Ethiopia, Kenya, Somalia, Horn of Africa"
+NSR-06,2019-2022 East Africa desert locust upsurge,"Ethiopia, Kenya, Somalia, Horn of Africa",livelihoods,Swiss Re BES fragility,Swiss Re,"Ethiopia, Kenya, Somalia, Horn of Africa"
+NSR-06,2019-2022 East Africa desert locust upsurge,"Ethiopia, Kenya, Somalia, Horn of Africa",State of nature (upstream),Biodiversity Intactness Index,NHM,"Ethiopia, Kenya, Somalia, Horn of Africa"
+NSR-06,2019-2022 East Africa desert locust upsurge,"Ethiopia, Kenya, Somalia, Horn of Africa",State of nature (upstream),IUCN Red List of Ecosystems status,IUCN,"Ethiopia, Kenya, Somalia, Horn of Africa"
+NSR-06,2019-2022 East Africa desert locust upsurge,"Ethiopia, Kenya, Somalia, Horn of Africa",Overall vulnerability,ND-GAIN country vulnerability and readiness,Notre Dame,"Ethiopia, Kenya, Somalia, Horn of Africa"
+NSR-07,Somali marine collapse illegal fishing and piracy,Gulf of Aden and western Indian Ocean,livelihoods,Share of employment in nature-dependent sectors,ILO,Gulf of Aden and western Indian Ocean
+NSR-07,Somali marine collapse illegal fishing and piracy,Gulf of Aden and western Indian Ocean,livelihoods,Swiss Re BES fragility,Swiss Re,Gulf of Aden and western Indian Ocean
+NSR-07,Somali marine collapse illegal fishing and piracy,Gulf of Aden and western Indian Ocean,maritime security,Channel-side leading indicator (see methods.md sec 2),,Gulf of Aden and western Indian Ocean
+NSR-07,Somali marine collapse illegal fishing and piracy,Gulf of Aden and western Indian Ocean,State of nature (upstream),Biodiversity Intactness Index,NHM,Gulf of Aden and western Indian Ocean
+NSR-07,Somali marine collapse illegal fishing and piracy,Gulf of Aden and western Indian Ocean,State of nature (upstream),IUCN Red List of Ecosystems status,IUCN,Gulf of Aden and western Indian Ocean
+NSR-07,Somali marine collapse illegal fishing and piracy,Gulf of Aden and western Indian Ocean,Overall vulnerability,ND-GAIN country vulnerability and readiness,Notre Dame,Gulf of Aden and western Indian Ocean
+NSR-08,Grand Ethiopian Renaissance Dam Nile water tension,"Nile Basin (Egypt, Ethiopia, Sudan)",water security,WRI Aqueduct baseline water stress,WRI,"Nile Basin (Egypt, Ethiopia, Sudan)"
+NSR-08,Grand Ethiopian Renaissance Dam Nile water tension,"Nile Basin (Egypt, Ethiopia, Sudan)",water security,Transboundary basin dependency,WRI,"Nile Basin (Egypt, Ethiopia, Sudan)"
+NSR-08,Grand Ethiopian Renaissance Dam Nile water tension,"Nile Basin (Egypt, Ethiopia, Sudan)",interstate/transboundary tension,Channel-side leading indicator (see methods.md sec 2),,"Nile Basin (Egypt, Ethiopia, Sudan)"
+NSR-08,Grand Ethiopian Renaissance Dam Nile water tension,"Nile Basin (Egypt, Ethiopia, Sudan)",State of nature (upstream),Biodiversity Intactness Index,NHM,"Nile Basin (Egypt, Ethiopia, Sudan)"
+NSR-08,Grand Ethiopian Renaissance Dam Nile water tension,"Nile Basin (Egypt, Ethiopia, Sudan)",State of nature (upstream),IUCN Red List of Ecosystems status,IUCN,"Nile Basin (Egypt, Ethiopia, Sudan)"
+NSR-08,Grand Ethiopian Renaissance Dam Nile water tension,"Nile Basin (Egypt, Ethiopia, Sudan)",Overall vulnerability,ND-GAIN country vulnerability and readiness,Notre Dame,"Nile Basin (Egypt, Ethiopia, Sudan)"
+NSR-09,COVID-19 and zoonotic spillover from land-use change,Global (origin land-use interfaces),human health and biosecurity,Zoonotic-spillover risk from land-use change (Allen 2017; Gibb 2020),peer literature,Global (origin land-use interfaces)
+NSR-09,COVID-19 and zoonotic spillover from land-use change,Global (origin land-use interfaces),economic shock,Channel-side leading indicator (see methods.md sec 2),,Global (origin land-use interfaces)
+NSR-09,COVID-19 and zoonotic spillover from land-use change,Global (origin land-use interfaces),strategic disruption,Channel-side leading indicator (see methods.md sec 2),,Global (origin land-use interfaces)
+NSR-09,COVID-19 and zoonotic spillover from land-use change,Global (origin land-use interfaces),State of nature (upstream),Biodiversity Intactness Index,NHM,Global (origin land-use interfaces)
+NSR-09,COVID-19 and zoonotic spillover from land-use change,Global (origin land-use interfaces),State of nature (upstream),IUCN Red List of Ecosystems status,IUCN,Global (origin land-use interfaces)
+NSR-09,COVID-19 and zoonotic spillover from land-use change,Global (origin land-use interfaces),Overall vulnerability,ND-GAIN country vulnerability and readiness,Notre Dame,Global (origin land-use interfaces)
+NSR-10,Global pollinator decline and food-production risk,Global,food security,FAO cereal-import dependency ratio,FAO,Global
+NSR-10,Global pollinator decline and food-production risk,Global,food security,Pollination-dependent crop share (IPBES 2016),IPBES,Global
+NSR-10,Global pollinator decline and food-production risk,Global,economic exposure,Channel-side leading indicator (see methods.md sec 2),,Global
+NSR-10,Global pollinator decline and food-production risk,Global,State of nature (upstream),Biodiversity Intactness Index,NHM,Global
+NSR-10,Global pollinator decline and food-production risk,Global,State of nature (upstream),IUCN Red List of Ecosystems status,IUCN,Global
+NSR-10,Global pollinator decline and food-production risk,Global,Overall vulnerability,ND-GAIN country vulnerability and readiness,Notre Dame,Global
+NSR-11,Amazon dieback tipping-point and hydrological risk,Amazon basin (South America),water/agriculture (regional rainfall),WRI Aqueduct baseline water stress,WRI,Amazon basin (South America)
+NSR-11,Amazon dieback tipping-point and hydrological risk,Amazon basin (South America),water/agriculture (regional rainfall),Transboundary basin dependency,WRI,Amazon basin (South America)
+NSR-11,Amazon dieback tipping-point and hydrological risk,Amazon basin (South America),climate feedback,Channel-side leading indicator (see methods.md sec 2),,Amazon basin (South America)
+NSR-11,Amazon dieback tipping-point and hydrological risk,Amazon basin (South America),State of nature (upstream),Biodiversity Intactness Index,NHM,Amazon basin (South America)
+NSR-11,Amazon dieback tipping-point and hydrological risk,Amazon basin (South America),State of nature (upstream),IUCN Red List of Ecosystems status,IUCN,Amazon basin (South America)
+NSR-11,Amazon dieback tipping-point and hydrological risk,Amazon basin (South America),Overall vulnerability,ND-GAIN country vulnerability and readiness,Notre Dame,Amazon basin (South America)
+NSR-12,AMOC weakening and North-West Europe climate security,North Atlantic and NW Europe,food security,FAO cereal-import dependency ratio,FAO,North Atlantic and NW Europe
+NSR-12,AMOC weakening and North-West Europe climate security,North Atlantic and NW Europe,food security,Pollination-dependent crop share (IPBES 2016),IPBES,North Atlantic and NW Europe
+NSR-12,AMOC weakening and North-West Europe climate security,North Atlantic and NW Europe,water security,WRI Aqueduct baseline water stress,WRI,North Atlantic and NW Europe
+NSR-12,AMOC weakening and North-West Europe climate security,North Atlantic and NW Europe,water security,Transboundary basin dependency,WRI,North Atlantic and NW Europe
+NSR-12,AMOC weakening and North-West Europe climate security,North Atlantic and NW Europe,strategic climate shift,Channel-side leading indicator (see methods.md sec 2),,North Atlantic and NW Europe
+NSR-12,AMOC weakening and North-West Europe climate security,North Atlantic and NW Europe,State of nature (upstream),Biodiversity Intactness Index,NHM,North Atlantic and NW Europe
+NSR-12,AMOC weakening and North-West Europe climate security,North Atlantic and NW Europe,State of nature (upstream),IUCN Red List of Ecosystems status,IUCN,North Atlantic and NW Europe
+NSR-12,AMOC weakening and North-West Europe climate security,North Atlantic and NW Europe,Overall vulnerability,ND-GAIN country vulnerability and readiness,Notre Dame,North Atlantic and NW Europe
+NSR-13,Sahel land degradation and farmer-herder conflict,"Sahel (Nigeria middle belt, Mali, Niger)",livelihoods,Share of employment in nature-dependent sectors,ILO,"Sahel (Nigeria middle belt, Mali, Niger)"
+NSR-13,Sahel land degradation and farmer-herder conflict,"Sahel (Nigeria middle belt, Mali, Niger)",livelihoods,Swiss Re BES fragility,Swiss Re,"Sahel (Nigeria middle belt, Mali, Niger)"
+NSR-13,Sahel land degradation and farmer-herder conflict,"Sahel (Nigeria middle belt, Mali, Niger)",resource competition,Channel-side leading indicator (see methods.md sec 2),,"Sahel (Nigeria middle belt, Mali, Niger)"
+NSR-13,Sahel land degradation and farmer-herder conflict,"Sahel (Nigeria middle belt, Mali, Niger)",violent conflict,Channel-side leading indicator (see methods.md sec 2),,"Sahel (Nigeria middle belt, Mali, Niger)"
+NSR-13,Sahel land degradation and farmer-herder conflict,"Sahel (Nigeria middle belt, Mali, Niger)",State of nature (upstream),Biodiversity Intactness Index,NHM,"Sahel (Nigeria middle belt, Mali, Niger)"
+NSR-13,Sahel land degradation and farmer-herder conflict,"Sahel (Nigeria middle belt, Mali, Niger)",State of nature (upstream),IUCN Red List of Ecosystems status,IUCN,"Sahel (Nigeria middle belt, Mali, Niger)"
+NSR-13,Sahel land degradation and farmer-herder conflict,"Sahel (Nigeria middle belt, Mali, Niger)",Overall vulnerability,ND-GAIN country vulnerability and readiness,Notre Dame,"Sahel (Nigeria middle belt, Mali, Niger)"
+NSR-14,SE Asian coral reef and mangrove loss and coastal insecurity,South-East Asia (Coral Triangle),food security,FAO cereal-import dependency ratio,FAO,South-East Asia (Coral Triangle)
+NSR-14,SE Asian coral reef and mangrove loss and coastal insecurity,South-East Asia (Coral Triangle),food security,Pollination-dependent crop share (IPBES 2016),IPBES,South-East Asia (Coral Triangle)
+NSR-14,SE Asian coral reef and mangrove loss and coastal insecurity,South-East Asia (Coral Triangle),livelihoods,Share of employment in nature-dependent sectors,ILO,South-East Asia (Coral Triangle)
+NSR-14,SE Asian coral reef and mangrove loss and coastal insecurity,South-East Asia (Coral Triangle),livelihoods,Swiss Re BES fragility,Swiss Re,South-East Asia (Coral Triangle)
+NSR-14,SE Asian coral reef and mangrove loss and coastal insecurity,South-East Asia (Coral Triangle),coastal exposure,Channel-side leading indicator (see methods.md sec 2),,South-East Asia (Coral Triangle)
+NSR-14,SE Asian coral reef and mangrove loss and coastal insecurity,South-East Asia (Coral Triangle),State of nature (upstream),Biodiversity Intactness Index,NHM,South-East Asia (Coral Triangle)
+NSR-14,SE Asian coral reef and mangrove loss and coastal insecurity,South-East Asia (Coral Triangle),State of nature (upstream),IUCN Red List of Ecosystems status,IUCN,South-East Asia (Coral Triangle)
+NSR-14,SE Asian coral reef and mangrove loss and coastal insecurity,South-East Asia (Coral Triangle),Overall vulnerability,ND-GAIN country vulnerability and readiness,Notre Dame,South-East Asia (Coral Triangle)

@@ -17,6 +17,8 @@ For a country or region, exposure is profiled per transmission channel by bindin
 
 The profile is a **vector, not a single score**: it is deliberately not collapsed to one number, because a scalar would hide which channel is driving exposure, which is exactly the information a mitigation decision needs. Weighting is left explicit and adjustable; no weights are hard-coded. This design choice directly answers the securitisation critique that composite security indices oversimplify.
 
+The channel-to-indicator bindings above are shipped in machine-readable form as [`exposure-profile-bindings.csv`](exposure-profile-bindings.csv): one row per cascade, transmission channel and bound open indicator, generated deterministically from [`../data/cascades.csv`](../data/cascades.csv). It binds each of the 14 documented cascades to its applicable open indicators and custodians, with a `resolution_key` (the region or country set) at which each indicator is resolved. It is a **binding layer, not a scored table**: it names which indicator answers which channel for which cascade, and leaves the live values to be pulled from each custodian on its own cycle.
+
 Reproducibility note: this repository specifies the method and the indicator sources rather than shipping a frozen scored table, because the underlying indicators update on their own cycles and are re-pointable. Every source is public and named above.
 
 ## 2. Monitor, early warning
