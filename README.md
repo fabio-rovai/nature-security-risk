@@ -1,5 +1,7 @@
 # Nature-Related Security Risk (NSR)
 
+[![Sponsor](https://img.shields.io/github/sponsors/fabio-rovai?label=Sponsor&logo=GitHub%20Sponsors&logoColor=EA4AAA&color=EA4AAA)](https://github.com/sponsors/fabio-rovai)
+
 **An open, machine-readable evidence base and systems ontology that operationalises documented nature-to-security cascades for government use.**
 
 Maintained by [The Tesseract Academy](https://gov.tesseract.academy). Data and documentation under CC-BY-4.0; code under MIT. Candidate-for-review and open to correction: <fabio@thetesseractacademy.com>.
@@ -69,3 +71,9 @@ An honest evidence base states its own limits.
 ## Licence
 
 Data and documentation: **CC-BY-4.0**. Code and schemas: **MIT**. Upstream ontologies and indicators are referenced by IRI under their own licences.
+
+---
+
+## Sponsor
+
+If this work is useful to you, you can support its continued development through [GitHub Sponsors](https://github.com/sponsors/fabio-rovai).
